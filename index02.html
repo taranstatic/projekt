@@ -17,12 +17,12 @@
                 <img src="img/IT.png">
             </div>
             <ul>
-                <li><h1>About</h1></li>
-                <li><h1>Projects</h1></li>
-                <li><h1>Contact</h1></li>
+                <li><a href="#about"><h1>About</h1></a></li>
+                <li><a href="#projects"><h1>Projects</h1></a></li>
+                <li><a href="#contact"><h1>Contact</h1></a></li>
             </ul>
         </div>
-        <div class="header">
+        <div id="projects" class="header">
             <h1>Projects</h1>
             <p>Morbi eget magna nunc. Phasellus libero nisl, gravida nec leo eget, 
                 tristique posuere lorem. Nam sed ultricies diam, id varius sem. 
@@ -30,7 +30,7 @@
                 facilisis. Sed ac ultricies lorem.</p>
         </div>
 
-        <div class="projects">
+        <div class="pictures header">
             <div class="item"><img class="img" src="img/webside.png"></div>
             <div class="item"><img class="img" src="img/webside.png"></div>
             <div class="item"><img class="img" src="img/webside.png"></div>
@@ -41,12 +41,32 @@
             <div class="item"><img class="img" src="img/webside.png"></div>
             <div class="item"><img class="img" src="img/webside.png"></div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="about" class="header">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Adipiscing at in tellus integer feugiat scelerisque varius morbi. 
+                Sagittis purus sit amet volutpat. Nunc vel risus commodo viverra 
+                maecenas accumsan lacus vel.</p>
+        </div>
+        <div id="contact" class="header">
+            <div><h1>Contact</h1></div>
+            <div class="form1">
+                <form>
+                    <label for="name">Name</label>
+                    <input name="name" type="text"
+                    placeholder="please enter your name">
+                    <label for="e-mail">e-mail</label>
+                    <input name="e-mail" type="text"
+                    placeholder="please enter your e-mail">
+                    <label for="phone">Name</label>
+                    <input name="phone" type="text"
+                    placeholder="please enter your phone number">
+                </form>
+
+            </div>
+            <div class="icons"></div>
+        </div>
     </div>
 </body>
 </html>
